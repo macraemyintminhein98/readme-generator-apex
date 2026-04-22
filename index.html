@@ -4,37 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APEX README Generator</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        /* Custom styles can go here if needed, but keeping it minimal for 150 lines */
+        body { font-family: sans-serif; margin: 2em; line-height: 1.6; background-color: #f4f7f6; color: #333; }
+        .container { max-width: 800px; margin: auto; padding: 2em; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; text-align: center; margin-bottom: 1em; }
+        p { text-align: center; margin-bottom: 2em; color: #555; }
+        .cta-button { display: block; width: fit-content; margin: 0 auto; padding: 12px 25px; background-color: #3498db; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s ease; }
+        .cta-button:hover { background-color: #2980b9; }
+        .feature-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; margin-top: 2em; }
+        .feature-list li { background: #ecf0f1; border-left: 5px solid #3498db; padding: 10px 15px; margin: 8px; border-radius: 4px; font-size: 0.9em; }
+        footer { text-align: center; margin-top: 3em; font-size: 0.8em; color: #7f8c8d; }
     </style>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-2xl text-center">
-        <h1 class="text-4xl font-bold mb-4 text-gray-800">APEX README Generator</h1>
-        <p class="text-xl text-gray-600 mb-6">Craft perfect GitHub READMEs in minutes.</p>
+<body>
+    <div class="container">
+        <h1>🚀 APEX README Generator</h1>
+        <p>Effortlessly create professional GitHub READMEs in minutes. Focus on coding, not Markdown formatting!</p>
+        <a href="#" class="cta-button">Generate Your README Now! (Coming Soon)</a>
+
+        <ul class="feature-list">
+            <li>✅ Professional Templates</li>
+            <li>⚡️ Instant Generation</li>
+            <li>📝 Customizable Inputs</li>
+            <li>💾 Download or Copy</li>
+            <li>✨ Clean UI/UX</li>
+        </ul>
         
-        <div class="space-y-4">
-            <input type="text" placeholder="Project Name" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
-            <textarea placeholder="Project Description" rows="3" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
-            <select class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
-                <option value="">Select Template (V2)</option>
-            </select>
-            <div class="flex items-center space-x-2">
-                <input type="checkbox" id="badge1" class="form-checkbox h-5 w-5 text-blue-600">
-                <label for="badge1" class="text-gray-700">Add Badge (V2)</label>
-            </div>
-        </div>
-
-        <button disabled class="mt-8 w-full bg-blue-400 text-white p-3 rounded-lg text-lg font-semibold cursor-not-allowed">
-            Generate README (Coming Soon)
-        </button>
-        <p class="mt-4 text-md text-gray-500">Early Access in V2. Stay tuned!</p>
-
-        <div class="mt-8 border-t pt-6 text-gray-500 text-sm">
-            <p>&copy; 2023 APEX Products. All rights reserved.</p>
-            <p class="mt-2">Powered by APEX.</p>
-        </div>
+        <footer>
+            <p>&copy; 2023 APEX. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
